@@ -43,6 +43,7 @@ public class ProjectDetails {
                 "        <p><b>Assignment Compiler:</b> David Gonzalez</p>\n" +
                 "        <p><b>Student:</b> Rafael Ricardo (rafael_rikardo@yahoo.com.br)</p>\n" +
                 "        <p><b>GitHub:</b> <a href=\"https://github.com/rafaelricardo-rj/cct-college-farm-manager\">https://github.com/rafaelricardo-rj/cct-college-farm-manager</a></p>\n"+
+                "        <p><b>Documentation:</b> <a href=\"https://rafaelricardo-rj.github.io/cct-college-farm-manager-doc\">https://rafaelricardo-rj.github.io/cct-college-farm-manager-doc/</a></p>\n" +
                 "\n" +
                 "        <h3>Farm Manager is an application that aims to manage the sale of animals on a farm.</h3>\n" +
                 "\n" +
