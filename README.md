@@ -4,7 +4,7 @@
   ### Assignment Type: Integrated Individual Practical Assignment
   ### Project Title: Farm Manager
   ### Project Date: March 2020
-  ### Assignment Compiler: David Gonzalez (dgonzalez@cct.ie)
+  ### Assignment Compiler: David Gonzalez
   ### Student: Rafael Ricardo (rafael_rikardo@yahoo.com.br)
  
   ## Farm Manager is an application that aims to manage the sale of animals on a farm.
