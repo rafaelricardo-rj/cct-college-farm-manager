@@ -64,19 +64,19 @@
   Parameters with wrong name are ignored, then the default market value is taken.
  
   ### Types of animals on the farm:
-  *Cow,
-  *Pig,
-  *Chicken
+  * Cow,
+  * Pig,
+  * Chicken
  
   ### Market value of each animal:
-  *Cow - 500.0
-  *Pig - 250.0
-  *Chicken - 5.0
+  * Cow - 500.0
+  * Pig - 250.0
+  * Chicken - 5.0
  
   ### Minimum weight for sale of each animal (Kg):
-  *Cow - 300.0
-  *Pig - 100.0
-  *Chicken - 0.5
+  * Cow - 300.0
+  * Pig - 100.0
+  * Chicken - 0.5
  
   ### Application structure and packages:
  
