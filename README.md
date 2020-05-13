@@ -6,6 +6,7 @@
   ### Project Date: March 2020
   ### Assignment Compiler: David Gonzalez
   ### Student: Rafael Ricardo (rafael_rikardo@yahoo.com.br)
+  ### Documentation: https://rafaelricardo-rj.github.io/cct-college-farm-manager-doc
  
   ## Farm Manager is an application that aims to manage the sale of animals on a farm.
  
