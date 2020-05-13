@@ -17,7 +17,7 @@ public class ProjectDetails {
         apiRoot.put("moduleTitle","Cloud Based Web Applications");
         apiRoot.put("projectTitle","Farm Manager");
         apiRoot.put("projectDate","March 2020");
-        apiRoot.put("assignmentCompiler","David Gonzalez (dgonzalez@cct.ie)");
+        apiRoot.put("assignmentCompiler","David Gonzalez");
         apiRoot.put("dueDate","Sunday, 17th May 2020 @ 23:59");
         apiRoot.put("course","Higher Diploma in Science of Computing");
         apiRoot.put("college","CCT College Dublin");
@@ -40,7 +40,7 @@ public class ProjectDetails {
                 "        <p><b>Assignment Type:</b> Integrated Individual Practical Assignment</p>\n" +
                 "        <p><b>Project Title:</b> Farm Manager</p>\n" +
                 "        <p><b>Project Date:</b> March 2020</p>\n" +
-                "        <p><b>Assignment Compiler:</b> David Gonzalez (dgonzalez@cct.ie)</p>\n" +
+                "        <p><b>Assignment Compiler:</b> David Gonzalez</p>\n" +
                 "        <p><b>Student:</b> Rafael Ricardo (rafael_rikardo@yahoo.com.br)</p>\n" +
                 "        <p><b>GitHub:</b> <a href=\"https://github.com/rafaelricardo-rj/cct-college-farm-manager\">https://github.com/rafaelricardo-rj/cct-college-farm-manager</a></p>\n"+
                 "\n" +
