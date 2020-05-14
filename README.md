@@ -29,6 +29,12 @@
  
   ### Base API URL: localhost:8080/api
   Displays basic API data such as version, author and resources.
+  
+  ### Application demo (Docker): http://rafaelricardo.online:8080
+  Display this information in production
+  
+  ### Application demo Base API URL: http://rafaelricardo.online:8080/api
+  Displays basic API data such as version, author and resources.
  
   ### Available API end-points:
  
