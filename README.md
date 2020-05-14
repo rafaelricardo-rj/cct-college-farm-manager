@@ -120,6 +120,9 @@
   The utils folder with some classes was created in order to reduce the amount of code in the methods of the controller classes, helping to perform some operations and keeping these methods more organized and readable.
   A second reason for all these additions to the project was to try to follow a development practice that I use in another language and try to reproduce the same thing with Java, although I believe that Java should have its recommended development standards that may differ from that adopted in other languages.
  
-  ### @author  Rafael Ricardo - Student number: 2019206
-  ### @version 1.0
-  ### @since   2020-05-12
+  ### Documentation – Javadoc
+  https://rafaelricardo-rj.github.io/cct-college-farm-manager-doc/
+  ### Demo
+  http://rafaelricardo.online:8080/
+  ### Docker Image
+  docker push rafaelricardo/cct-college-farm-manager
