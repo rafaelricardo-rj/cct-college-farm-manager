@@ -6,6 +6,7 @@ package ie.cct.ca2019206.model;
 
 import ie.cct.ca2019206.enums.AnimalType;
 import ie.cct.ca2019206.enums.AnimalValue;
+import ie.cct.ca2019206.utils.BadRequestException;
 import ie.cct.ca2019206.utils.SingletonIdAnimalCounter;
 
 final public class Animal {
@@ -68,8 +69,17 @@ final public class Animal {
         return type;
     }
 
-    public void setType(AnimalType type) {
-        this.type = type;
+    /**
+     * I created this validation because I don't know yet how to validate the AnimalType in the end-point
+     * \@PostMapping("/api/animals") before Spring convert the json object into Animal object, then I could throw an
+     * BadRequestReception in the controller if someone try to post "COw instead of COW or other word that
+     * is not in the Enum AnimalType. This is a workaround. */
+    public void setType(String type)  {
+        if(AnimalType.has(type.toUpperCase())){
+            this.type = AnimalType.valueOf(type.toUpperCase());
+        } else {
+            throw new BadRequestException("Wrong animal type. Types accepted: COW | PIG | CHICKEN");
+        }
     }
 
     public float getWeight() {

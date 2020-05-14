@@ -11,4 +11,16 @@ public enum AnimalType {
     PIG,
     CHICKEN;
 
+    /**
+     * This method test if there is some animal in the enum. Return false if not exist.
+     * @param animal String
+     * @return Boolean */
+    public static boolean has(String animal) {
+        try {
+            return AnimalType.valueOf(animal) != null;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
 }

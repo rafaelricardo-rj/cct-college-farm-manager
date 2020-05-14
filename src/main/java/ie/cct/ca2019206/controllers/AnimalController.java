@@ -58,7 +58,7 @@ public class AnimalController {
         /** Set the value of this animal according with the type. */
         animal.setValue(AnimalValue.valueOf(animal.getType().toString()).get());
         animals.add(animal);
-
+        System.out.println(animal.getType());
         return new RespSuccess("Animal added");
     }
 
