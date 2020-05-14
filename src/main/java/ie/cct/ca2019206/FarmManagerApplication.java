@@ -8,10 +8,11 @@ package ie.cct.ca2019206;
  * Project Date: March 2020
  * Assignment Compiler: David Gonzalez
  * Student: Rafael Ricardo (rafael_rikardo@yahoo.com.br)
+ * Documentation: https://rafaelricardo-rj.github.io/cct-college-farm-manager-doc
  *
- * <h3>Farm Manager is an application that aims to manage the sale of animals on a farm.</h3>
+ * Farm Manager is an application that aims to manage the sale of animals on a farm.
  *
- * <h5>Note</h5>
+ * Note
  * The application is an API developed in Java language and uses the Spring framework (Spring boot Version 2.2.7),
  * Java 8, packing JAR and Graddle compiler. This is not an application for commercial use as it is an Assignment of
  * semester completion of the Higher Diploma in Science in Computing course at CCT College in order to show basic
@@ -29,6 +30,12 @@ package ie.cct.ca2019206;
  * Display this information.
  *
  * Base API URL: localhost:8080/api
+ * Displays basic API data such as version, author and resources.
+ *
+ * Application demo (Docker): http://rafaelricardo.online:8080
+ * Display this information in production
+ *
+ * Application demo Base API URL: http://rafaelricardo.online:8080/api
  * Displays basic API data such as version, author and resources.
  *
  * Available API end-points:
@@ -114,6 +121,9 @@ package ie.cct.ca2019206;
  * a new route using a new controller.
  * The utils folder with some classes was created in order to reduce the amount of code in the methods of the controller classes, helping to perform some operations and keeping these methods more organized and readable.
  * A second reason for all these additions to the project was to try to follow a development practice that I use in another language and try to reproduce the same thing with Java, although I believe that Java should have its recommended development standards that may differ from that adopted in other languages.
+ *
+ * Docker Image
+ * docker push rafaelricardo/cct-college-farm-manager
  *
  * @author  Rafael Ricardo - Student number: 2019206
  * @version 1.0
