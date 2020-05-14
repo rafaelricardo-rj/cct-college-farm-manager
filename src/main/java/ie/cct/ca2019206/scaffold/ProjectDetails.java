@@ -173,6 +173,7 @@ public class ProjectDetails {
                 "        <p><b>@author</b> Rafael Ricardo - Student number: 2019206</p>\n" +
                 "        <p><b>@version</b> 1.0</p>\n" +
                 "        <p><b>@since</b> 2020-05-12</p>\n" +
+                "        <p><b>Docker Image</b>docker push rafaelricardo/cct-college-farm-manager</p>\n" +
                 "    </div>\n" +
                 "</body>\n" +
                 "\n" +
